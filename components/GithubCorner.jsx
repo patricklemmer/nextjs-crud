@@ -9,7 +9,7 @@ export default function GithubCorner() {
       >
         <svg
           viewBox="0 0 250 250"
-          className="fill-[#222831] text-[#00ADB5] absolute top-0 right-0 border-0 w-16 h-16 lg:w-20 lg:h-20"
+          className="fill-[#00ADB5] text-[#222831] absolute top-0 right-0 border-0 w-16 h-16 lg:w-20 lg:h-20"
           aria-hidden="true"
         >
           <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
