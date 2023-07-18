@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import AddButton from './AddButton';
 
 export default function Navbar() {
   return (
@@ -6,12 +7,7 @@ export default function Navbar() {
       <Link href={'/'} className="text-[#00ADB5] font-bold">
         NextJS CRUD Demo
       </Link>
-      <Link
-        href={'/add-topic'}
-        className="bg-[#eee] text-[#333] py-2 px-4 rounded"
-      >
-        Add a topic
-      </Link>
+      <AddButton />
     </nav>
   );
 }
