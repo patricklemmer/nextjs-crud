@@ -1,3 +1,5 @@
+// Imports
+// Component imports
 import RemoveButton from './RemoveButton';
 import EditButton from './EditButton';
 

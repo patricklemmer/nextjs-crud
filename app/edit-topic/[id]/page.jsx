@@ -1,3 +1,5 @@
+// Imports
+// Component imports
 import EditTopicForm from '@/components/EditTopicForm';
 
 const getTopicById = async (id) => {

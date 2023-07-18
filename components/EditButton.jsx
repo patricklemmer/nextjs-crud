@@ -1,7 +1,10 @@
 'use client';
 
-import React from 'react';
+// Imports
+// Next.js imports
 import Link from 'next/link';
+
+// Dependncy imports
 import { HiPencilAlt } from 'react-icons/hi';
 
 export default function EditButton({ id }) {

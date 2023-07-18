@@ -1,6 +1,7 @@
 'use client';
 
-import React from 'react';
+//Imports
+// Dependency imports
 import { Card, Text, Button } from '@nextui-org/react';
 import { HiOutlineTrash, HiPencilAlt } from 'react-icons/hi';
 
@@ -8,7 +9,7 @@ function Sidebar() {
   return (
     <Card
       css={{
-        background: '#f7f7f7',
+        background: '#f9f9f9',
         color: '#333',
         paddingBlock: '4px',
         paddingInline: '16px',
@@ -16,9 +17,9 @@ function Sidebar() {
     >
       <Card.Body>
         <Text className="mb-5">
-          This demo app has full CRUD functionality. You can add, view, update
-          and delete topics in the list below. All topics are stored in and
-          retrieved from a MongoDB database.
+          This Next.js 13 demo app has full CRUD functionality. You can add,
+          view, update and delete topics in the list below. All topics are
+          stored in and retrieved from a MongoDB database.
         </Text>
         <Text className="flex gap-2 mb-3 items-center">
           Click

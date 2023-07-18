@@ -1,8 +1,12 @@
 'use client';
 
-import React from 'react';
-import { HiOutlineTrash } from 'react-icons/hi';
+// Imports
+
+// Next.js imports
 import { useRouter } from 'next/navigation';
+
+// Dependency imports
+import { HiOutlineTrash } from 'react-icons/hi';
 
 export default function RemoveButton({ id }) {
   const router = useRouter();

@@ -1,3 +1,5 @@
+// Imports
+// Component imports
 import TopicList from '@/components/TopicList';
 
 export default function Home() {

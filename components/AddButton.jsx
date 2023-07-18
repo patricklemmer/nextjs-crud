@@ -1,7 +1,8 @@
-import React from 'react';
+// Imports
+// Next.js imports
 import Link from 'next/link';
 
-function AddButton() {
+export default function AddButton() {
   return (
     <Link
       href={'/add-topic'}
@@ -11,5 +12,3 @@ function AddButton() {
     </Link>
   );
 }
-
-export default AddButton;

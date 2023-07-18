@@ -1,4 +1,8 @@
+// Imports
+// Next.js imports
 import Link from 'next/link';
+
+// Component imports
 import AddButton from './AddButton';
 
 export default function Navbar() {

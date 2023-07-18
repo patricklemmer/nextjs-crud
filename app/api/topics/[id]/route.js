@@ -1,6 +1,11 @@
+// Imports
+
+// Next.js imports
+import { NextResponse } from 'next/server';
+
+// Database imports
 import connectMongoDB from '@/libs/mongodb';
 import Topic from '@/models/topic';
-import { NextResponse } from 'next/server';
 
 export async function PUT(request, { params }) {
   const { id } = params;

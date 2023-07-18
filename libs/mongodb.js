@@ -1,3 +1,5 @@
+// Imports
+// Dependency imports
 import mongoose from 'mongoose';
 
 const connectMongoDB = async () => {
