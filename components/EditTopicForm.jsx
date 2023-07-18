@@ -30,7 +30,7 @@ export default function EditTopicForm({ id, title, description }) {
         throw new Error('Failed to update the topic');
       }
 
-      // router.refresh();
+      router.refresh();
       router.push('/');
     } catch (error) {
       console.log(error);
