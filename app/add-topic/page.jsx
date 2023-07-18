@@ -30,6 +30,7 @@ export default function AddTopic() {
         body: JSON.stringify({ title, description }),
       });
       if (res.ok) {
+        router.refresh();
         router.push('/');
       } else {
         throw new Error('Failed to create a topic');
