@@ -15,7 +15,7 @@ With this project I intended to get more experience connecting a frontend UI wit
 - UI design with TailwindCSS
 - Setting up and connecting a NoSQL database 
 
-### Routes
+## Routes
 - /
 - /api/topics
 - /api/topics/${id}
