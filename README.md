@@ -6,7 +6,7 @@ A simple [Next.js 13](https://nextjs.org/) CRUD application connected to a [Mong
 
 With this project I intended to get more experience connecting a frontend UI with a database and utilize the data using API calls and CRUD operations.
 
-## Concepts I improved on, by working on this project
+## What I improved on, by working on this project
 
 - Using Next.js app router
 - CRUD operations setup
